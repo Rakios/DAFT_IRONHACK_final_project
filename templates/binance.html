@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+    <h1>{% block title %} Binance Statistic {% endblock %}</h1>
+
+
+    <div class="container-fluid">
+
+      <embed type="image/svg+xml" src= {{ date_chart|safe }} style="width:45%;height:50%" />
+
+      <embed type="image/svg+xml" src= {{ line_chart|safe }} style="width:45%;height:50%" />
+
+  </div>
+
+{% endblock %}

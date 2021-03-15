@@ -1,0 +1,23 @@
+{% extends 'base_notablet.html' %}
+
+{% block content %}
+
+    
+
+    
+    <div class="mx-auto" style="width: 600px;">
+    <h1>{% block title %} Bienvenido a P2P Statistic {% endblock %}</h1>
+
+    <p class="lead"> Un repositorio de datos que almacena los anuncios de compra y venta de criptomonedas
+     de distintos mercados p2p </p>
+
+    
+    <div class="container-fluid">
+
+      <embed type="image/svg+xml" src= {{ date_chart|safe }} style="width:100%;height:100%" />
+
+
+  </div>
+
+
+{% endblock %}

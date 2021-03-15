@@ -1,0 +1,34 @@
+{% extends 'base_notablet.html' %}
+
+{% block content %}
+
+
+    <div class="mx-auto" style="width: 600px;">
+    <h1>{% block title %} Sobre nuesta API {% endblock %}</h1>
+
+    <p class="lead"> Nuestra plataforma proporciona un API gratuita para 
+    que sea capas de obtener los datos historicos expuestos en nuestra 
+    pagina para el uso de sus aplicaciones, 
+    la informacion puede filtrarse por la fuente original de los datos </p>
+
+    <h4> Categoria: Binance </h4>
+    <h5> /api/v1/resources/source/binance
+    <small class="text-muted"> methods=[ 'GET'] </small> </h5>
+
+    <h4> Categoria: Localbitcoin </h4>
+     <h5> /api/v1/resources/source/localbitcoin 
+    <small class="text-muted"> methods=[ 'GET'] </small> </h5>
+
+    <h4> Categoria: Localcrypto </h4>
+     <h5> /api/v1/resources/source/localcrypto 
+    <small class="text-muted"> methods=[ 'GET'] </small> </h5>
+    
+
+    <p class="lead margin-top-5"> Tambien puede utilizarse el metodo general para 
+    obtener todos los datos sin filtrar por categorias </p>
+    <h4> Categoria: ALL </h4>
+     <h5> /api/v1/resources/source/all 
+    <small class="text-muted"> methods=[ 'GET'] </small> </h5>
+    </div>
+
+{% endblock %}
