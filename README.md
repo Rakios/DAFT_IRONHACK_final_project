@@ -43,19 +43,19 @@ Para la temática de este proyecto escogí páginas de venta y compra P2P de cri
 - Con la información obtenida, se decidió mostrarla en un dashboard creado desde 0 usando el micro-framework Flask
 - La página se llamó P2P Stastic y se generaron visualizaciones para enfatizar algunas métricas de interés sobre los datos
 
-    <img src="img\1.png" alt="P2P Stastic" width="600"/>
+    <img src="img/1.png" alt="P2P Stastic" width="600"/>
 
 - Se filtró la data por página y se generó una sección especializada para cada página, donde se muestran:
     - Graficas de interés 
 
-        <img src="img\2.png" alt="P2P Stastic 2" width="600"/>
+        <img src="img/2.png" alt="P2P Stastic 2" width="600"/>
 
     - Los registros en forma de tabla paginados y correspondientes a esas páginas, con posibilidad de descargarlo.
 
-        <img src="img\3.png" alt="P2P Stastic 3" width="600"/>
+        <img src="img/3.png" alt="P2P Stastic 3" width="600"/>
 
 - Por último, se implementó un API básico, para la extracción de los datos en formato JSON por parte de terceros.
 
-    <img src="img\4.png" alt="P2P Stastic API 2" width="600"/>
-<img src="img\5.png" alt="P2P Stastic API 1" width="600"/>
+    <img src="img/4.png" alt="P2P Stastic API 2" width="600"/>
+<img src="img/5.png" alt="P2P Stastic API 1" width="600"/>
 
